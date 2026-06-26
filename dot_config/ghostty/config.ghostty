@@ -1,0 +1,4 @@
+theme = Catppuccin Frappe 
+
+keybind = ctrl+m=text:\r
+keybind = ctrl+[=text:\x1b
