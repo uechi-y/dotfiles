@@ -1,4 +1,5 @@
 theme = Catppuccin Frappe 
 
-keybind = ctrl+m=text:\r
+keybind = ctrl+m=text:\x0d
 keybind = ctrl+[=text:\x1b
+keybind = ctrl+i=text:\x09
