@@ -3,7 +3,7 @@ theme = Catppuccin Frappe
 font-family = "BlexMono Nerd Font" 
 font-size = 13
 
-cursor-color = #ddaa44
+cursor-color = #ffcc99
 cursor-style = block
 shell-integration-features = no-cursor
 
