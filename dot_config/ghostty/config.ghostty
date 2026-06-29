@@ -3,6 +3,10 @@ theme = Catppuccin Frappe
 font-family = "BlexMono Nerd Font" 
 font-size = 13
 
+cursor-color = #ddaa44
+cursor-style = block
+shell-integration-features = no-cursor
+
 keybind = ctrl+m=text:\x0d
 keybind = ctrl+[=text:\x1b
 keybind = ctrl+i=text:\x09
