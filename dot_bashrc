@@ -5,6 +5,13 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
+export HISTCONTROL=ignoreboth
+export HISTSIZE=10000
+export HISTFILESIZE=20000
+export HISTTIMEFORMAT="%F %T "
+export HISTIGNORE="ls*"
+shopt -s histappend
+
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 
