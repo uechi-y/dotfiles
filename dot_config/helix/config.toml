@@ -1,1 +1,10 @@
 theme = "catppuccin_frappe"
+
+[keys.insert]
+C-b = "move_char_left"
+C-f = "move_char_right"
+C-p = "move_visual_line_up"
+C-n = "move_visual_line_down"
+C-a = "goto_line_start"
+C-e = "goto_line_end_newline"
+
