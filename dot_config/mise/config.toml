@@ -1,4 +1,5 @@
 [tools]
+"aqua:zk-org/zk" = "latest"
 chezmoi = "latest"
 fzf = "latest"
 usage = "latest"
