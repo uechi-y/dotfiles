@@ -15,10 +15,17 @@ shopt -s histappend
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 
+# https://starship.rs/
 if [ $(command -v starship) ]; then
 	eval "$(starship init bash)"
 fi
 
+# https://mise.jdx.dev
 if [ $(command -v mise) ]; then
 	eval "$(mise activate bash)"
+fi
+
+# https://github.com/junegunn/fzf
+if [ $(command -v fzf) ]; then
+	eval "$(fzf --bash)"
 fi
