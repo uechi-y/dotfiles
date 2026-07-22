@@ -29,3 +29,9 @@ fi
 if [ $(command -v fzf) ]; then
 	eval "$(fzf --bash)"
 fi
+
+
+# https://github.com/HalFrgrd/flyline
+if [[ -L ~/.local/lib/libflyline.so && -e ~/.local/lib/libflyline.so ]]; then
+	enable -f ~/.local/lib/libflyline.so flyline
+]]
