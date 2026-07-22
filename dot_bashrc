@@ -25,13 +25,11 @@ if [ $(command -v mise) ]; then
 	eval "$(mise activate bash)"
 fi
 
-# https://github.com/junegunn/fzf
-if [ $(command -v fzf) ]; then
-	eval "$(fzf --bash)"
-fi
-
-
 # https://github.com/HalFrgrd/flyline
 if [[ -L ~/.local/lib/libflyline.so && -e ~/.local/lib/libflyline.so ]]; then
 	enable -f ~/.local/lib/libflyline.so flyline
+	flyline key remap Ctrl+F Right
+	flyline key remap Ctrl+B Left
+	flyline key remap Ctrl+P Up
+	flyline key remap Ctrl+N Down
 fi
