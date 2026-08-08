@@ -26,8 +26,8 @@ if [ $(command -v mise) ]; then
 fi
 
 # https://github.com/HalFrgrd/flyline
-if [[ -L ~/.local/lib/libflyline.so && -e ~/.local/lib/libflyline.so ]]; then
-	enable -f ~/.local/lib/libflyline.so flyline
+if [[ -f /usr/lib/bash/libflyline.so ]]; then
+	enable -f /usr/lib/bash/libflyline.so flyline
 	flyline key remap Ctrl+F Right
 	flyline key remap Ctrl+B Left
 	flyline key remap Ctrl+P Up
