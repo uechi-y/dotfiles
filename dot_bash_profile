@@ -2,6 +2,7 @@
 # ~/.bash_profile
 #
 
+export EDITOR=hx
 export SSH_AUTH_SOCK=${XDG_RUNTIME_DIR}/ssh-agent.socket
 
 [[ -f ~/.bashrc ]] && . ~/.bashrc
