@@ -12,7 +12,6 @@
 # the database location (in a subdirectory called ".notmuch").
 #
 [database]
-# path=/home/uechi/.local/state/gmail
 path=.local/share/gmail
 
 # User configuration
@@ -31,8 +30,8 @@ path=.local/share/gmail
 # address to which the original email was addressed.
 #
 [user]
-name=UECHI, Yasumasa
-primary_email=uechi.y@gmail.com
+name={{ .username }}
+primary_email={{ .email }}
 # Configuration for "notmuch new"
 #
 # The following options are supported here:
