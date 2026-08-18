@@ -4,10 +4,6 @@ font-family = "BlexMono Nerd Font"
 font-family = "Noto Sans Mono CJK JP" 
 font-size = 13
 
-cursor-color = #ffcc99
-cursor-style = block
-shell-integration-features = no-cursor
-
 keybind = ctrl+m=text:\x0d
 keybind = ctrl+[=text:\x1b
 keybind = ctrl+i=text:\x09
