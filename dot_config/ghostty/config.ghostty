@@ -1,6 +1,7 @@
 theme = Catppuccin Frappe 
 
 font-family = "BlexMono Nerd Font" 
+font-family = "Noto Sans Mono CJK JP" 
 font-size = 13
 
 cursor-color = #ffcc99
