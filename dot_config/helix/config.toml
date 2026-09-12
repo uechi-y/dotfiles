@@ -11,3 +11,7 @@ C-e = "goto_line_end_newline"
 # normal mode に戻るときに ime をオフにする。
 # :sh だと status line に "Command Run" が表示されるので :pipe-to にした
 "esc" = [ "normal_mode", ":pipe-to fcitx5-remote -c" ]
+
+[editor.auto-save]
+focus-lost = true
+after-delay.enable = true
